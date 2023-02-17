@@ -1,15 +1,10 @@
-# Welcome to your CDK TypeScript project
+# Clean Architecture Workshop
 
-You should explore the contents of this project. It demonstrates a CDK app with an instance of a stack (`CleanarcWorkshopStack`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+This repository contains a backend created for given user story for a meal app built with AWS CDK, Lambda, DynamoDB, and API Gateway. Use ```npm install``` and ```npm run deploy``` to set up the necessary infrastructure.
+# Use case diagram and the high level architecture diagram
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+![alt_text](images/HighLevelArchitectureDiagram.png "image_tooltip")
 
-## Useful commands
+# Single table design
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+![alt_text](images/STD.png "image_tooltip")
